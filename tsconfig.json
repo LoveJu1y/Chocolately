@@ -9,5 +9,6 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "noEmit": true
-  }
+  },
+  "extends": "expo/tsconfig.base"
 }
