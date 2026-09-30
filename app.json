@@ -6,8 +6,21 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "scheme": "chocolately",
-    "platforms": ["ios", "android", "web"],
-    "android": {"package": "com.lovejuly.chocolately"},
-    "assetBundlePatterns": ["**/*"]
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.lovejuly.chocolately"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b97ada69-bf36-4839-b773-ee0e51d33574"
+      }
+    }
   }
 }
