@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Chocolately",
+    "slug": "chocolately",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "chocolately",
+    "platforms": ["ios", "android", "web"],
+    "assetBundlePatterns": ["**/*"]
+  }
+}
