@@ -12,7 +12,11 @@
       "web"
     ],
     "android": {
-      "package": "com.lovejuly.chocolately"
+      "package": "com.lovejuly.chocolately",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,6 +25,7 @@
       "eas": {
         "projectId": "b97ada69-bf36-4839-b773-ee0e51d33574"
       }
-    }
+    },
+    "icon": "./assets/icon.png"
   }
 }
